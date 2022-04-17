@@ -177,7 +177,25 @@ class MangoStickyRice:
             webbrowser.open('https://www.matichon.co.th/wp-content/uploads/2020/04/ข้าวเหนียวมะม่วง-4.jpg')
         else:
             print('https://www.matichon.co.th/wp-content/uploads/2020/04/ข้าวเหนียวมะม่วง-4.jpg')
-
+    
+    def show_ascii(self):
+        text='''
+                                ████  ████                                      
+                        ██░░░░██░░░░████████                              
+                        ██░░░░░░░░██▒▒▒▒▒▒  ██                            
+                        ██░░░░██▒▒▒▒  ▒▒▒▒▒▒██                          
+                        ██░░░░░░░░██▒▒▒▒▒▒▒▒▒▒▒▒██                        
+                    ██░░░░██░░░░██▒▒▒▒▒▒▒▒▒▒▒▒██                        
+                        ████▒▒████▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒██                      
+                        ██  ▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒▒  ██                      
+                        ██▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██                      
+                        ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒██                      
+                        ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██                      
+                            ██  ▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒██                        
+                            ████▒▒▒▒▒▒▒▒  ▒▒██                          
+                                ████████████      
+        '''
+        print(text)
 
 
 if __name__ == '__main__':
@@ -189,4 +207,5 @@ if __name__ == '__main__':
     mango.show_google()
     mango.show_location()
     mango.show_image(open=True)
+    mango.show_ascii()
 
