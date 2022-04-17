@@ -27,6 +27,7 @@ mango.show_youtube() #โชว์คลิปทำ
 mango.show_google() #โชว์เทรนด์ google
 mango.show_location() #โชว์ตำแหน่งร้าน
 mango.show_image(open=True) #โชว์ภาพ
+mango.show_ascii() #โชว์ ascii
 ```
 
 พัฒนาโดย: ลุงวิศวกร สอนคำนวณ
