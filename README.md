@@ -1,4 +1,5 @@
-# (Uncle Profile) เป็นตัวอย่างการอัพโหลด package ไปยัง pypi.org
+# ลุงสอนสร้างไลบรารี Python อัพโหลดขึ้น PyPi.org ตอน “pip install ข้าวเหนียวมะม่วง”
+https://www.youtube.com/watch?v=JsfIcV_4eik
 
 PyPi: https://pypi.org/project/khawniawmamuang/
 
